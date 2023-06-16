@@ -1,6 +1,7 @@
 # YouTube_Trending_Video_Analysis
 
-Summary of the Project
+Summary of the Project:
+
 The project aims to securely manage, streamline, and perform analysis on structured and semi-structured YouTube video data. The data will be ingested from the Kaggle Dataset,  Lambda function used for Data Cleaning, processed using a Glue ETL job, and then later stored in AWS Athena by running Glue Crawler on the S3 buckets. The data was then analyzed using AWS Quicksight and also tried to generate reports and insights using Tableau.
 
 Services Used
