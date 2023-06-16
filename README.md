@@ -4,7 +4,8 @@ Summary of the Project:
 
 The project aims to securely manage, streamline, and perform analysis on structured and semi-structured YouTube video data. The data will be ingested from the Kaggle Dataset,  Lambda function used for Data Cleaning, processed using a Glue ETL job, and then later stored in AWS Athena by running Glue Crawler on the S3 buckets. The data was then analyzed using AWS Quicksight and also tried to generate reports and insights using Tableau.
 
-Services Used
+Services Used:
+
 The following AWS services will be used to achieve the project goals:
 
 A. Amazon S3
@@ -26,5 +27,6 @@ F. AWS Athena
 AWS Athena will be used to query the data stored in the data lake. Athena provides a serverless query service that allows users to analyze data using SQL.
 
 
-Benefits of Analyzing Trending YouTube Video Data
+Benefits of Analyzing Trending YouTube Video Data:
+
 Analyzing YouTube video data can provide valuable insights into user behavior, content popularity, and trends. These insights can be used to improve content creation, marketing strategies, and user engagement.
